@@ -1,0 +1,10 @@
+[package]
+name = "vault-rust"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+http = "1.1.0"
+serde = { version = "1.0.208", features = ["derive"] }
+ureq = { version = "2.10.1", features = ["json"] }
+url = "2.5.2"
