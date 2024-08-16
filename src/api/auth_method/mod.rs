@@ -1,6 +1,12 @@
-pub mod aws;
+pub mod alicloud;
 pub mod approle;
+pub mod aws;
+pub mod azure;
+pub mod cloud_foundry;
 pub mod jwt_oidc;
+pub mod kubernetes;
+pub mod oci;
+pub mod saml;
 
 #[macro_export]
 macro_rules! auth_config_endpoint {
